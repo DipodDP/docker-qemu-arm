@@ -17,7 +17,7 @@ mkdir -p alpine
 cd alpine
 
 # URL / BRANCH might be overwritten here
-. config.env
+. ../config.env
 
 cp ../answerfile .
 cp ../ssh2qemu.sh .
