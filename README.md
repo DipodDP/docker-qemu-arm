@@ -52,6 +52,7 @@ $ ./fedora-arm-setup.sh
 ## Postinstall & fun
 
 - enter on folder called "alpine"
+- adjust port forwarding to the VM in "startqemu.sh" (add something like `,hostfwd=tcp::5432-:5432` to the list in `-netdev`)
 - start the VM with "startqemu.sh"
     - root passwort is "Secret123" but root in ssh is locked by password
     - please change the password anyway
